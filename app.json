@@ -1,0 +1,24 @@
+{
+  "name": "AABot-master",
+  "scripts": {
+  },
+  "env": {
+    "LINE_BOT_CHANNEL_SECRET": {
+      "required": true
+    },
+    "LINE_BOT_CHANNEL_TOKEN": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "herokuconnect",
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/gradle"
+    }
+  ]
+}
